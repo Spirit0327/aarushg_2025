@@ -5,4 +5,4 @@ description: Home Page
 hide: true
 ---
 
-My journey starts here.
+Hello! I’m Aarush Gowda and I am a very passionate coder and am excited to share my journey with you!
