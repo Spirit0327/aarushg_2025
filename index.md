@@ -87,7 +87,7 @@ Amazing Indian Music Below 🎵🎤:
   <script src="https://utteranc.es/client.js"
           repo="Spirit0327/aarushg_2025"
           issue-term="pathname"
-          theme="github-dark"
+          theme="icy-dark"
           crossorigin="anonymous"
           async>
   </script>
