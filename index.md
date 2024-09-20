@@ -82,10 +82,13 @@ Amazing Indian Music Below 🎵🎤:
   </div>
 </div>
 
-<script src="https://utteranc.es/client.js"
-        repo="aarushg_2025"
-        issue-term="pathname"
-        theme="github-dark"
-        crossorigin="anonymous"
-        async>
-    </script>
+<div id="comments" style="margin-top: 20px;">
+  <h3>Comments</h3>
+  <script src="https://utteranc.es/client.js"
+          repo="Spirit0327/aarushg_2025"
+          issue-term="pathname"
+          theme="github-dark"
+          crossorigin="anonymous"
+          async>
+  </script>
+</div>
