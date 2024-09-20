@@ -23,7 +23,7 @@ The Japan national team has made significant strides in international volleyball
 
 ### Iconic Players 🌟
 
-What I find most captivating are the players who have donned the Japan jersey. Stars like **Kōki Nishida** and **Yūki Ishikawa** have inspired countless fans, including me. Their ability to perform under pressure and lead their team is something I admire deeply. I often find myself imitating their moves while playing with friends, hoping to capture just a fraction of their skill. 💪
+What I find most captivating are the players who have donned the Japan jersey. Stars like **Yuji Nishida** and **Yūki Ishikawa** have inspired countless fans, including me. Their ability to perform under pressure and lead their team is something I admire deeply. I often find myself imitating their moves while playing with friends, hoping to capture just a fraction of their skill. 💪
 
 ### The Spirit of the Team 🤝
 

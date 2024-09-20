@@ -91,8 +91,11 @@ source myenv/bin/activate</code></pre>
   <pre><code>git clone https://github.com/yourusername/yourproject.git</code></pre>
 </div>
 
-## Ready for Development and Deployment
-
-<p>The environment is now ready for development and deployment using GitHub Pages.</p>
 
 <a id="home-btn" href="{{ site.baseurl }}/">Back to Home</a>
+
+<a href="{{ site.baseurl }}/reflection" target="_blank">
+    <button style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">
+        View Reflection
+    </button>
+</a>
