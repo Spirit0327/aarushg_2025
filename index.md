@@ -77,7 +77,7 @@ Amazing Indian Music Below 🎵🎤:
     <div id="dropdown" class="dropdown-content">
       <a href="game">Game</a>
       <a href="calculator">Calculator</a>
-      <a href="snake">Snake</a>
+      <a href="snake_game">Snake</a>
     </div>
   </div>
 </div>
