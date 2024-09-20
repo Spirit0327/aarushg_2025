@@ -2,7 +2,7 @@
 layout: page
 title: My Love for Volleyball and the Japan National Team
 description: A deep dive into my favorite sport and team.
-permalink:/volleyball/
+permalink: /volleyball/
 ---
 
 # 🏐 Volleyball: My Passion and the Japan National Team 🇯🇵
