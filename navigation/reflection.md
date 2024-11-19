@@ -33,3 +33,52 @@ We had to think on our feet to troubleshoot merge conflictions, and working toge
 ## How am I ready for the AP Exam?
 My experience working on web development through these student-led lectures and hacks has definitely helped me prepare for the AP exam. Since I already had some prior experience with JavaScript and a bit of Python, I was able to build on that knowledge and get a deeper understanding of the concepts. Teaching the material with my group really reinforced what I knew. It forced me to break down complex topics and explain them in simple terms, which is a skill that will be important for College Board and Project Based Learning.
 
+# Sprint 3 Reflection
+
+
+## Project Overview:
+During this sprint, our team developed an interactive chat room designed as a café-inspired study hall. The platform encourages productive collaboration, where users earn points by helping others—either by answering questions or engaging in meaningful study discussions. These points can be redeemed for virtual "coffees," which are displayed on the webpage using a menu and "buy" feature, creating a fun and engaging reward system.
+
+
+## Collaboration Evidence:
+To divide the workload, we split responsibilities between frontend and backend development. Using an incremental approach, we started by building a basic chatroom interface and then added features layer by layer. For instance, we first implemented the chat functionality, followed by the point system and the menu integration. Regular testing ensured each feature worked before moving to the next step. At the end, we focused on styling and added café-inspired themes to make the interface visually appealing and cohesive.
+
+
+We utilized inspiration boards to create a consistent design, incorporating soft tones and café elements to foster a relaxed and inviting atmosphere. The code was organized into frontend and backend repositories, with frontend components focusing on the chat interface and menu features (HTML and JavaScript) and backend systems managing user points and interactions (Python).
+
+
+We also sought feedback from peers, which helped us identify areas to improve, such as enhancing user interactivity and simplifying the process of redeeming points.
+
+
+## Program Function and Purpose:
+The program facilitates a virtual café environment where users can chat, collaborate, and exchange study tips. Key features include the ability to:
+
+
+Earn points for productive contributions.
+Use points to "buy" virtual coffees displayed on a menu.
+Redeem items through a simple and interactive process.
+Key user interactions involve chatting with others, earning points through participation, and navigating the menu to make purchases. The inputs are user contributions in the chat, while outputs include point updates and the virtual coffee display on the webpage.
+
+
+## Summary:
+This sprint provided me with invaluable experience in creating a functional and visually engaging user interface. I learned how to:
+
+
+Design a cohesive and aesthetically pleasing UI inspired by real-world environments.
+Test backend endpoints effectively using Postman.
+Manipulate and update database records to reflect user actions.
+Style data dynamically using JavaScript to connect backend functionality to the frontend.
+Overall, this project helped me better understand how to integrate complex features while ensuring user engagement and satisfaction.
+
+
+
+
+# MCQ Reflection
+I developed the ability to analyze and interpret code to understand its functionality. Additionally, I expanded my knowledge of various computer science concepts and this in turn walked me through general internet safety such as avoiding phishing and cyber security.
+I struggle with vocabulary questions related to specific CSP topics, particularly Boolean expressions and calling procedures. These questions often require identifying or explaining concepts and then evaluating their benefits and drawbacks, which I find challenging to analyze in detail.
+I mostly made mistakes on questions asking me to specifically analyze boolean expressions and this was very difficult as many intricate images of code were difficult for me to comprehend. However I did learn to fix my mistakes on Skill 4.C: Identify and correct errors in algorithms and programs, including error discovery through testing. This was genuinely challenging for me on the practice exam and I hope to fix these.
+
+
+
+
+
