@@ -23,3 +23,13 @@ I also gained a new appreciation for Jupyter Notebooks, as they can be used not 
 
 ## Looking Forward:
 I'm excited to see how we’ll build on this foundation in future assignments. This was a great introduction to the power of simple web development, and I can’t wait to explore more advanced techniques and tools as the course progresses.
+
+# Reflection on Sprint 2 in AP Computer Science Principles!
+Looking back at the past few weeks of learning both frontend and backend development, the student-led lectures were an effective way to break down complex topics like Python and JavaScript. The teaching segments followed by hands-on hacks allowed us to actively engage with the material and immediately apply it, which reinforced my thought processes.
+
+## Teaching Experience Overview: 
+We had to think on our feet to troubleshoot merge conflictions, and working together during the hands-on hack sessions, which boosted my confidence in both the technical and communication aspects of web development. Overall, teaching our peers made me more comfortable with the material and strengthened my teamwork skills. We completed 3.6 Conditionals and 3.7 Nested Conditionals, specifically, introducing Python conditions and worked on a mini quiz that involved the class participating and answering which was definetly a highlight of our presentation. I also learnt a lot of different topics such as Python Lists(3.10), De Morgan's Law(3.3), and more!
+
+## How am I ready for the AP Exam?
+My experience working on web development through these student-led lectures and hacks has definitely helped me prepare for the AP exam. Since I already had some prior experience with JavaScript and a bit of Python, I was able to build on that knowledge and get a deeper understanding of the concepts. Teaching the material with my group really reinforced what I knew. It forced me to break down complex topics and explain them in simple terms, which is a skill that will be important for College Board and Project Based Learning.
+
