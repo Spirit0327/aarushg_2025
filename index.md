@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Aarush Gowda Home 
+title: Yuvraj Jindal Home 
 description: Home Page
 hide: true
 image: /images/mario_animation.png

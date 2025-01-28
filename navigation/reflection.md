@@ -79,6 +79,67 @@ I struggle with vocabulary questions related to specific CSP topics, particularl
 I mostly made mistakes on questions asking me to specifically analyze boolean expressions and this was very difficult as many intricate images of code were difficult for me to comprehend. However I did learn to fix my mistakes on Skill 4.C: Identify and correct errors in algorithms and programs, including error discovery through testing. This was genuinely challenging for me on the practice exam and I hope to fix these.
 
 
+# FULL STACK BLOG
+
+
+
+## Executive Summary:
+For this sprint, I developed a full-stack feature that stores, manages, and analyzes chess moves and their evaluations. I created a backend database to store chess moves, built a RESTful API for CRUD operations, and integrated the backend with a frontend interface. Users can interact with this feature on the analysis page, where they can view, add, update, and delete chess moves dynamically.
+
+## Team Purpose:
+Our team is working on a chess-based social media platform where users can discuss chess strategies, analyze their games, and learn from others. My feature complements this vision by providing users with the tools to analyze their games, save key moves, and review them later for improvement and discussion.
+
+## Individual Feature:
+My feature focuses on enabling users to store and manage their chess moves and evaluations. Users can upload PGN files to analyze moves and save these moves to a database for later use. The manager page lets users perform CRUD operations, providing full control over their stored data. This feature enhances the user experience by allowing in-depth review and customization of their chess gameplay data.
+
+Key functionalities include:
+- **POST:** Automatically saves moves and their evaluations after a game is played or a PGN file is uploaded.
+- **GET:** Displays all saved moves in a dynamic table on the analysis page.
+- **PUT:** Updates the evaluation or status of a move (e.g., marking it as "played").
+- **DELETE:** Removes moves from the database when no longer needed.
+
+## Input/Output Requests:
+The evaluation API supports all CRUD operations:
+1. **GET:** The analysis page fetches all moves from the backend and displays them in a table dynamically.
+2. **POST:** A POST request is triggered when a game is completed, saving new moves and their evaluations to the database.
+3. **PUT:** Users can update the status of a move, such as marking it as "played," which sends a PUT request to the API.
+4. **DELETE:** A DELETE request is made when a user removes a move using the "Remove" button.
+
+These requests have been tested thoroughly using Postman to ensure correct functionality. Error handling ensures proper HTTP status codes (e.g., 200 for success, 404 for not found) are returned for each request.
+
+## Requests & DOM Integration:
+Fetch requests on the frontend dynamically interact with the REST API:
+- **GET Requests:** Populate the DOM by fetching data from the backend and rendering it in a table. Loops are used to iterate through the response data, creating rows dynamically.
+- **POST Requests:** Send new move data to the backend when a game concludes, and update the DOM to reflect the added move.
+- **PUT Requests:** Allow users to edit move details, such as changing the evaluation or marking a move as "played."
+- **DELETE Requests:** Dynamically remove moves from the database and the DOM.
+
+The backend uses Flask_SQLAlchemy as an ORM to manage database queries, abstracting SQL operations for ease of development.
+
+## Algorithmic Requests:
+My `_CRUD` class in the backend API handles POST, PUT, and DELETE requests:
+- The **POST method** takes move data from the frontend, validates it, and adds it to the database. Duplicate checks ensure data integrity.
+- The **PUT method** allows partial updates to entries, such as changing the evaluation or marking a move as "played."
+- The **DELETE method** removes a move from the database based on its unique ID, returning an appropriate success or error message.
+
+Each method parses incoming request data, performs validation, interacts with the database, and returns a JSON response with a status code.
+
+## Call to Algorithm Requests:
+Frontend JavaScript functions handle the integration of the REST API with the UI:
+- A **POST request** is triggered when the user finishes a game or uploads a PGN file. This adds new moves to the database and dynamically updates the table.
+- **GET requests** populate the moves table on page load, displaying all saved moves.
+- **PUT requests** allow users to mark moves as "played" or update their evaluations. These changes are reflected immediately in the DOM.
+- **DELETE requests** remove moves from the database and dynamically update the table to reflect the changes.
+
+For example, the "Mark as Played" button sends a PUT request to the API. Once the request is successful, the move is added to the "Played Moves" list and removed from the available moves table.
+
+## Summary:
+This feature provided valuable experience in building and integrating a full-stack application:
+- **Backend:** Developed a RESTful API with robust CRUD operations and integrated it with a database.
+- **Frontend:** Designed a dynamic interface that allows users to manage their chess gameplay data effectively.
+- **Testing:** Used Postman for testing API endpoints and ensured smooth interaction between the backend and frontend.
+
+This project helped me better understand the complexities of full-stack development, especially in managing state and ensuring seamless communication between the frontend and backend. I'm excited to refine and expand this feature in future sprints.
 
 
 
