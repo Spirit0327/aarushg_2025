@@ -2,7 +2,7 @@
 layout: page
 title: Digital Divide HW Aarush Gowda Code Snippets
 description: 
-permalink: /Divide/
+permalink: /divide/
 ---
 
 ```javascript
