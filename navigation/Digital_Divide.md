@@ -12,7 +12,7 @@ function exploreDigitalDivide() {
     "1: Income-based internet access\n" +
     "2: Urban vs rural access\n" +
     "3: Age-based internet usage\n" +
-    "4: Global connectivity rates"
+    "4: Global connectivity rate"
   );
 
   const incomeData = {
