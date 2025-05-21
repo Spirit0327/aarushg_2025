@@ -457,3 +457,125 @@ Overall, this project has been a significant learning experience, and these futu
 
  I went over my N@TM Demo with Arnav Nadar, a student in AP CSA this year, similar to how some students reviewed with Ms.Pataki. The feedback I recieved was valuable as it enhanced my presentation skills overall. He helped me to showcase my feature in an enticing way and show the continuity between features to overall demonstrate the use of my website. Kudos to him!
   ![Feedback Image]({{site.baseurl}}/images/arnav.png)
+
+
+
+# Reflection on My AP CSP Practice MCQ Performance
+![Feedback Image]({{site.baseurl}}/images/AP PRACTICE.png)
+After completing the AP Computer Science Principles practice multiple-choice exam, I was able to better understand my current strengths and weaknesses based on the skill-by-skill breakdown. **Score: 59/70**
+
+## What I Did Well:
+I performed strongly on most units that involved understanding and interpreting program functionality. For example, I scored:
+- **100%** on topics like **Random Values (3.15)**, **Developing Algorithms (3.9)**, **The Internet (4.1)**, and **Safe Computing (5.6)**.
+- My score on **Iteration (3.8)** was also high at **91%**, showing that I’m comfortable working with loops and repeating patterns in code.
+- I answered **all questions** correctly on **Conditionals (3.6)** and **Nested Conditionals (3.7)**, indicating a strong grasp of logical decision-making in Python programs.
+
+## What I Struggled With:
+- I struggled the most with **Binary Search (3.11)**, where I scored **0%**, indicating that I may need to revisit how binary search works conceptually and in code.
+- **Boolean Expressions (3.5)** and **Data Abstraction (3.2)** also showed lower scores at **50%** and **N/A**, respectively.
+- Some difficulty came from questions that involved evaluating or comparing algorithms based on efficiency or output, especially in problems with dense visuals or multiple-step logic.
+
+## How I Plan to Improve:
+To address these gaps, I plan to:
+- **Rewatch videos and review notes** for Binary Search and Boolean logic, focusing on how binary search narrows search space in sorted lists and how boolean operators work together.
+- Practice identifying boolean conditions and rewriting logic using De Morgan’s Law to reinforce expression simplification.
+- Use **practice problems** from CodeHS or College Board’s AP CSP question bank to simulate MCQ-style formats, especially ones that require interpreting conditionals or comparing code outputs.
+- Work with **interactive tools** or flashcards to reinforce key terms and logic symbols (e.g., `and`, `or`, `not`) in different contexts.
+- For algorithm efficiency questions, I’ll review **visual walkthroughs** and step-count analysis so I can more easily determine time complexity at a glance.
+
+## Final Thoughts:
+This practice exam was a helpful checkpoint. While I feel confident in most coding-related logic and structure, I now know exactly which areas to focus on in my review. I’m aiming for more consistency across all topics before the AP exam. With targeted review and hands-on problem solving, I’m confident I’ll be fully prepared on exam day.
+
+<a href="http://127.0.0.1:4100/aarushg_2025/Divide" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; font-weight: bold;">Go to Divide Homework</a>
+
+<a href="http://127.0.0.1:4100/aarushg_2025/Binary" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; font-weight: bold;">Go to Binary Search Homework</a>
+
+<a href="http://127.0.0.1:4100/aarushg_2025/Algorithm" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; font-weight: bold;">Go to Algorithm Homework</a>
+
+<a href="http://127.0.0.1:4100/aarushg_2025/lists" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; font-weight: bold;">Go to Lists and Filtering Homework</a>
+
+<a href="https://github.com/Spirit0327/aarushg_2025/issues/10#issue-2957725549" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; font-weight: bold;">Go to Crowdsourcing Homework</a>
+
+<a href="https://github.com/Spirit0327/aarushg_2025/issues/9#issue-2955052416" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; font-weight: bold;">Go to Computing Bias Homework</a>
+
+<a href="https://github.com/Spirit0327/aarushg_2025/issues/12#issue-2970057862" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; font-weight: bold;">Go to Safe Computing Homework</a>
+
+<a href="https://github.com/Spirit0327/aarushg_2025/issues/11#issue-2968322226" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; font-weight: bold;">Go to Legal and Ethical Concerns Homework</a>
+
+<a href="http://127.0.0.1:4100/aarushg_2025/big" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; font-weight: bold;">Go to Big O Notation Homework</a>
+
+
+#  AP Computer Science Principles Study Plan
+**Goal:** Master key topics and practice all question types before the AP CSP Exam.
+
+##  Week 1: April 23 – April 28 (Foundation + Key Topics)
+
+###  Tuesday (April 22)
+- Review MCQ performance dashboard 
+- Reflect on weak areas: Boolean Expressions, Lists, Binary Search
+- Finish `PPR` + upload to AP Digital Portfolio
+
+###  Wednesday (April 23)
+- **Practice**: Boolean Expressions & DeMorgan's Law (Unit 3.5)
+- **Practice**: Conditionals & Nested Conditionals (3.6–3.7)
+- Do 10 MCQs from CodeHS or CollegeBoard
+
+###  Thursday (April 24)
+- **Focus:** Lists & Binary Search (3.10–3.11)
+- Practice writing code with `append`, `in`, and `set`
+- Relearn Binary Search visually and through simulation
+
+###  Friday (April 25)
+- **Practice:** Time Complexity (Big-O) & Algorithms (3.8–3.9)
+- Create or review notebook with O(1), O(log n), O(n), O(n²) examples
+- Do 1 Free Response style question on algorithm tracing
+
+###  Weekend (April 26–27)
+- Complete full 30-question AP MCQ practice set
+- Write a reflection blog on what was most challenging
+- Light review of Internet, Data, Digital Divide (Units 2 & 4)
+
+---
+
+##  Week 2: April 29 – May 7 (Practice, Application, Full Review)
+
+###  Monday (April 28)
+- **Practice:** Data Abstraction (Lists + Algorithms)
+- Do 5 MCQs and 1 Create Task-style reflection on your project
+
+###  Tuesday (April 30)
+- **Practice:** Simulations, Random Values, and Libraries (3.14–3.16)
+- Go through examples that involve randomness or simulation logic
+
+###  Wednesday (May 1)
+- **Review**: Safe Computing, Computing Bias, Legal & Ethical Effects (Unit 5)
+- Flashcards: Types of computing harms, ethical implications
+
+###  Thursday (May 2)
+- **Timed Practice:** Full MCQ Section (40 Questions in 75 min)
+- Review answers and mistakes in a markdown cell
+
+###  Friday (May 3)
+- **Practice**: Algorithmic Efficiency + Undecidable Problems (3.17–3.18)
+- Review charts, visual flow logic
+
+###  Weekend (May 4–5)
+- **Simulated AP Exam Weekend**
+  -  Saturday: Take full-length AP Practice Exam (MCQ + FRQ)
+  - Sunday: Go over Create Task details + Review all submissions
+
+###  Monday (May 6)
+- **Last Review**: Focused notes, “cheat sheet” creation
+- Go over most missed topics again (Lists, Binary Search, Conditionals)
+
+###  Tuesday (May 7)
+- Light review, flashcards, rest
+- Get good sleep and confidence boost 
+
+---
+
+# Resources
+- College Board AP Classroom (MCQs and FRQs)
+- CodeHS CSP Practice
+- Visual Algo (Binary Search, Sorting Simulators)
+- Your own Jupyter notes + Create Task project
