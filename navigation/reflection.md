@@ -486,13 +486,13 @@ To address these gaps, I plan to:
 ## Final Thoughts:
 This practice exam was a helpful checkpoint. While I feel confident in most coding-related logic and structure, I now know exactly which areas to focus on in my review. I’m aiming for more consistency across all topics before the AP exam. With targeted review and hands-on problem solving, I’m confident I’ll be fully prepared on exam day.
 
-<a href="http://127.0.0.1:4100/aarushg_2025/Divide" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; font-weight: bold;">Go to Divide Homework</a>
+<a href="https://spirit0327.github.io/aarushg_2025/divide/" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; font-weight: bold;">Go to Divide Homework</a>
 
-<a href="http://127.0.0.1:4100/aarushg_2025/Binary" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; font-weight: bold;">Go to Binary Search Homework</a>
+<a href="https://spirit0327.github.io/aarushg_2025/binary/" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; font-weight: bold;">Go to Binary Search Homework</a>
 
-<a href="http://127.0.0.1:4100/aarushg_2025/Algorithm" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; font-weight: bold;">Go to Algorithm Homework</a>
+<a href="https://spirit0327.github.io/aarushg_2025/algorithm/" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; font-weight: bold;">Go to Algorithm Homework</a>
 
-<a href="http://127.0.0.1:4100/aarushg_2025/lists" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; font-weight: bold;">Go to Lists and Filtering Homework</a>
+<a href="https://spirit0327.github.io/aarushg_2025/lists/" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; font-weight: bold;">Go to Lists and Filtering Homework</a>
 
 <a href="https://github.com/Spirit0327/aarushg_2025/issues/10#issue-2957725549" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; font-weight: bold;">Go to Crowdsourcing Homework</a>
 
@@ -502,7 +502,7 @@ This practice exam was a helpful checkpoint. While I feel confident in most codi
 
 <a href="https://github.com/Spirit0327/aarushg_2025/issues/11#issue-2968322226" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; font-weight: bold;">Go to Legal and Ethical Concerns Homework</a>
 
-<a href="http://127.0.0.1:4100/aarushg_2025/big" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; font-weight: bold;">Go to Big O Notation Homework</a>
+<a href="https://spirit0327.github.io/aarushg_2025/big/" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; font-weight: bold;">Go to Big O Notation Homework</a>
 
 
 #  AP Computer Science Principles Study Plan
