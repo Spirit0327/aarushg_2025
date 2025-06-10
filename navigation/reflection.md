@@ -486,6 +486,105 @@ To address these gaps, I plan to:
 ## Final Thoughts:
 This practice exam was a helpful checkpoint. While I feel confident in most coding-related logic and structure, I now know exactly which areas to focus on in my review. I’m aiming for more consistency across all topics before the AP exam. With targeted review and hands-on problem solving, I’m confident I’ll be fully prepared on exam day.
 
+
+# TRI 3 FINAL BLOG - AARUSH
+
+## N@TM TRI 2: Chess Analysis Platform
+
+### Executive Summary:
+I developed a comprehensive chess move analysis and management system for our chess-based social media platform. This full-stack feature enables users to upload PGN files, analyze their games using the Stockfish engine, and manage their chess moves through a complete CRUD interface with real-time evaluation feedback.
+
+### Team Purpose:
+Our team created Pawnsy, a chess social media platform where users discuss strategies, analyze games, and learn from each other. My feature provides the analytical backbone, allowing users to deeply examine their gameplay and save insights for future reference and community discussion.
+
+### Individual Feature Overview:
+The chess analysis system combines three core components: PGN file processing, Stockfish engine integration, and move management. Users can upload their game files, navigate through moves with arrow keys on an interactive board, and receive detailed evaluations including move classifications like "Brilliant," "Inaccurate," or "Blunder."
+
+The system processes chess games by parsing PGN notation, feeding positions to the Stockfish engine for analysis, and storing evaluation data in a structured database. Users can then interact with this data through a dynamic interface that allows full CRUD operations on their stored moves.
+
+### Technical Implementation:
+The backend architecture uses Flask with SQLAlchemy for database management, creating a robust foundation for storing and retrieving chess move evaluations. The API design follows RESTful principles, handling requests for creating new evaluations, retrieving stored moves, updating assessments, and removing outdated entries.
+
+The frontend seamlessly integrates with the backend through asynchronous fetch requests, providing immediate visual feedback without page refreshes. The interactive chessboard responds to user navigation commands, while the moves table updates dynamically based on user actions and database changes.
+
+The Stockfish integration required careful consideration of engine parameters and position evaluation algorithms to provide meaningful feedback. The system translates chess positions into FEN notation, processes them through the engine, and interprets the results into user-friendly classifications and scores.
+
+---
+
+## N@TM TRI 3: Pyre Risk Predictor
+
+### Executive Summary:
+For the third trimester, I developed the Risk Predictor feature for Pyre, our natural disaster safety platform. This system evaluates wildfire and earthquake risks for any U.S. ZIP code using real-time APIs and historical data, providing users with actionable safety insights through sophisticated risk assessment algorithms.
+
+### Team Purpose:
+Pyre helps individuals and communities understand natural disaster threats through data-driven analysis. My Risk Predictor feature gives users immediate risk assessments to make informed decisions about where to live, work, or travel based on comprehensive natural disaster risk profiles.
+
+### Individual Feature Overview:
+The Risk Predictor accepts ZIP code inputs and generates comprehensive risk evaluations for both wildfires and earthquakes. The system calculates risk scores from 0-100 using multiple data sources including recent disaster activity, geographical factors, and environmental conditions.
+
+The wildfire risk assessment considers recent fire activity patterns, vegetation density levels, and seasonal weather conditions specific to the geographic region. The algorithm weighs recent incidents more heavily than historical data to provide current risk assessments that reflect changing environmental conditions.
+
+The earthquake risk evaluation incorporates historical seismic activity, maximum recorded magnitudes, and proximity to major fault lines using precise geographical distance calculations. The system applies the Haversine formula to determine fault line proximity and combines this with frequency analysis of recent seismic events.
+
+### Technical Implementation:
+The backend processes GET requests for both wildfire and earthquake data, interfacing with multiple external APIs including USGS earthquake data and Zippopotam.us for geographic coordinate translation. The scoring algorithm uses weighted factors to produce meaningful assessments that translate to intuitive Low, Medium, or High risk classifications.
+
+The risk calculation engine processes multiple data streams simultaneously, applying different weighting schemes based on recency and severity of events. For wildfires, the system emphasizes recent activity and seasonal patterns, while earthquake assessments focus on magnitude history and geological proximity factors.
+
+The frontend presents results through dynamically styled cards with comprehensive visual feedback, loading indicators, and robust error handling. Users receive immediate risk assessments with detailed breakdowns of contributing factors and recent activity summaries.
+
+The integration with real-time APIs required careful handling of rate limits, timeout scenarios, and data validation to ensure reliable service delivery. The system implements fallback mechanisms and caching strategies to maintain performance during high-traffic periods.
+
+---
+
+## FINAL REVIEW & REFLECTION
+
+### 5 Major Achievements:
+1. **Stockfish Integration**: Successfully implemented professional chess engine analysis with real-time evaluation feedback and move classification
+2. **Full-Stack Development**: Created complete CRUD systems with seamless frontend-backend integration across multiple projects
+3. **Deployment Mastery**: Mastered AWS EC2, Route 53, Docker containerization, and SSL certificate management for production deployment
+4. **API Development**: Built robust RESTful APIs with comprehensive error handling, validation, and external service integration
+5. **Interactive UI Design**: Developed responsive interfaces with dynamic content updates, real-time feedback, and intuitive user navigation
+
+### Technical Growth and Learning:
+My technical skills significantly advanced through hands-on development of complex, integrated systems. The chess analysis project taught me the intricacies of game state management, engine integration, and real-time data processing. Working with the Stockfish engine required deep understanding of chess notation, position evaluation, and performance optimization.
+
+The risk prediction system expanded my knowledge of external API integration, geographic data processing, and algorithm design for real-world applications. Learning to work with multiple data sources simultaneously while maintaining system reliability was particularly challenging and rewarding.
+
+As deployment administrator, I gained comprehensive expertise in cloud infrastructure management. The process of configuring AWS services, implementing SSL security, and managing Docker containers provided valuable experience in production system maintenance. Regular database management using backup and restore procedures became essential skills for maintaining data integrity.
+
+### Areas for Improvement:
+**Code Organization**: Future projects would benefit from better modularization and comprehensive documentation practices. Breaking large features into smaller, more manageable components would improve both development efficiency and long-term maintainability.
+
+**Planning and Architecture**: Improving effort estimation and system design from the project inception would prevent last-minute integration challenges. Designing more scalable architectures initially rather than retrofitting would save significant development time.
+
+**Testing Strategy**: Implementing more comprehensive testing approaches beyond manual Postman verification would improve code reliability. Automated testing suites and continuous integration practices would enhance development workflow.
+
+**Collaboration Efficiency**: Breaking large features into smaller, distributable tasks would improve team coordination and prevent bottlenecks where single developers handle entire system components.
+
+### User Feedback Analysis:
+From 22 N@TM responses, users consistently praised the clean interface design, sophisticated Stockfish integration, and comprehensive move analysis capabilities. The interactive chess board with arrow key navigation received particularly positive feedback for its intuitive user experience.
+
+Key improvement suggestions included adding move editing capabilities, enhancing CSS styling consistency, implementing user authentication systems, and providing more detailed move quality ratings. Users appreciated the technical sophistication but requested more visual polish and additional convenience features.
+
+Several users specifically mentioned the value of the engine analysis for chess improvement, validating the core purpose of the educational platform. The feedback confirmed that the technical implementation successfully served the intended user needs while identifying clear enhancement opportunities.
+
+### Future Development Directions:
+**Enhanced User Experience**: Implementing suggested UI improvements including better visual consistency, improved styling, and additional interactive features based on user feedback.
+
+**Scalability Improvements**: Refactoring existing code for better maintainability, performance optimization, and system scalability to handle increased user loads.
+
+**Advanced Analysis Features**: Expanding chess analysis capabilities with more sophisticated evaluation metrics, historical game comparison, and personalized improvement recommendations.
+
+**Mobile Optimization**: Ensuring responsive design functionality across all device types and screen sizes for broader accessibility.
+
+**Security and Authentication**: Implementing comprehensive user authentication systems and data protection measures to support personalized user experiences and data privacy.
+
+This trimester provided invaluable hands-on experience in full-stack development, cloud deployment, and user-centered design. The projects challenged me to integrate complex systems while maintaining focus on practical user needs and code quality standards.
+
+
+<a href="https://github.com/Spirit0327/aarushg_2025/issues/15#issue-3123802306" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; font-weight: bold;">N@TM Blog</a>
+
 <a href="https://spirit0327.github.io/aarushg_2025/divide/" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; font-weight: bold;">Go to Divide Homework</a>
 
 <a href="https://spirit0327.github.io/aarushg_2025/binary/" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; font-weight: bold;">Go to Binary Search Homework</a>
@@ -579,436 +678,3 @@ This practice exam was a helpful checkpoint. While I feel confident in most codi
 - CodeHS CSP Practice
 - Visual Algo (Binary Search, Sorting Simulators)
 - Your own Jupyter notes + Create Task project
-
-# TRI 3 FINAL BLOG - AARUSH
-
-## N@TM TRI 2:
-
-## Executive Summary:
-For this sprint, I developed a full-stack feature that stores, manages, and analyzes chess moves and their evaluations. I created a backend database to store chess moves, built a RESTful API for CRUD operations, and integrated the backend with a frontend interface. Users can interact with this feature on the analysis page, where they can view, add, update, and delete chess moves dynamically.
-
-## Team Purpose:
-Our team is working on a chess-based social media platform where users can discuss chess strategies, analyze their games, and learn from others. My feature complements this vision by providing users with the tools to analyze their games, save key moves, and review them later for improvement and discussion.
-
-## Individual Feature:
-My feature focuses on enabling users to store and manage their chess moves and evaluations. Users can upload PGN files to analyze moves and save these moves to a database for later use. The manager page lets users perform CRUD operations, providing full control over their stored data. This feature enhances the user experience by allowing in-depth review and customization of their chess gameplay data.
-
-Key functionalities include:
-- **POST:** Adds a new evaluation to the database with the move number, move, and evaluation score.
-```python
-def post(self):
-    data = request.get_json()
-    if not data or 'evaluation' not in data or 'move' not in data or 'move_number' not in data:
-        return {'message': 'Move data is required.'}, 400
-
-    evaluation = Evaluation(
-        evaluation=data.get('evaluation'),
-        move=data.get('move'),
-        move_number=data.get('move_number')
-    )
-
-    try:
-        evaluation.create()
-        return jsonify(evaluation.read()), 201
-    except Exception as e:
-        return {'message': f'Error saving evaluation: {e}'}, 500
- ```
-  ```js
- // Add new move
-    addMoveForm.addEventListener('submit', async (event) => {
-        event.preventDefault();
-        const moveNumber = document.querySelector('#move-number').value;
-        const move = document.querySelector('#move').value;
-        const evaluation = document.querySelector('#evaluation').value;
-
-        try {
-            const response = await fetch(pythonURI, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    move_number: parseInt(moveNumber, 10),
-                    move: move,
-                    evaluation: parseFloat(evaluation)
-                })
-            });
-
-            if (response.ok) {
-                fetchMoves(); // Refresh the table
-                addMoveForm.reset();
-            } else {
-                console.error('Failed to add move.');
-            }
-        } catch (error) {
-            console.error('Error adding move:', error);
-        }
-    });
-```
-- **GET:** Displays all saved moves in a dynamic table on the analysis page.
-```python
-def get(self):
-    all_evaluations = Evaluation.query.all()
-    return jsonify([evaluation.read() for evaluation in all_evaluations])
-```
-- **PUT:** Updates the evaluation or status of a move (e.g., marking it as "played").
-```python
-def put(self):
-    data = request.get_json()
-    if not data or 'id' not in data:
-        return {'message': 'ID is required to update the evaluation'}, 400
-
-    evaluation = Evaluation.query.get(data['id'])
-    if not evaluation:
-        return {'message': 'Evaluation not found'}, 404
-
-    try:
-        evaluation.update(data)
-        return jsonify(evaluation.read())
-    except Exception as e:
-        return {'message': f'Error updating evaluation: {e}'}, 500
-```
-```js
-    async function markAsPlayed(id, move) {
-        try {
-            const response = await fetch(pythonURI, {
-                method: 'PUT',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ id: id, played: true }),
-            });
-
-            if (response.ok) {
-                const playedMove = document.createElement('li');
-                playedMove.textContent = move;
-                playedMovesList.appendChild(playedMove);
-                fetchMoves(); // Refresh the table
-            } else {
-                console.error('Failed to mark move as played.');
-            }
-        } catch (error) {
-            console.error('Error marking move as played:', error);
-        }
-    }
-```
-- **DELETE:** Removes moves from the database when no longer needed.
-```python
-def delete(self):
-    data = request.get_json()
-    if not data or 'id' not in data:
-        return {'message': 'ID is required for deletion'}, 400
-
-    evaluation = Evaluation.query.get(data['id'])
-    if not evaluation:
-        return {'message': 'Evaluation not found'}, 404
-
-    try:
-        evaluation.delete()
-        return {'message': 'Evaluation deleted successfully'}, 200
-    except Exception as e:
-        return {'message': f'Error deleting evaluation: {e}'}, 500
-```
-```js
-    // Remove move
-    async function removeMove(id) {
-        try {
-            const response = await fetch(pythonURI, {
-                method: 'DELETE',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ id: id }),
-            });
-
-            if (response.ok) {
-                fetchMoves(); // Refresh the table
-            } else {
-                console.error('Failed to remove move.');
-            }
-        } catch (error) {
-            console.error('Error removing move:', error);
-        }
-    }
-```
-## Input/Output Requests:
-The evaluation API supports all CRUD operations:
-
-1. **GET:** The analysis page fetches all moves from the backend and displays them in a table dynamically.
-2. **POST:** A POST request is triggered when a game is completed, saving new moves and their evaluations to the database.
-3. **PUT:** Users can update the status of a move, such as marking it as "played," which sends a PUT request to the API.
-4. **DELETE:** A DELETE request is made when a user removes a move using the "Remove" button.
-
-These requests have been tested thoroughly using Postman to ensure correct functionality. Error handling ensures proper HTTP status codes (e.g., 200 for success, 404 for not found) are returned for each request.
-
-## Requests & DOM Integration:
-Fetch requests on the frontend dynamically interact with the REST API:
-- **GET Requests:** Populate the DOM by fetching data from the backend and rendering it in a table. Loops are used to iterate through the response data, creating rows dynamically.
-- **POST Requests:** Send new move data to the backend when a game concludes, and update the DOM to reflect the added move.
-- **PUT Requests:** Allow users to edit move details, such as changing the evaluation or marking a move as "played."
-- **DELETE Requests:** Dynamically remove moves from the database and the DOM.
-
-The backend uses Flask_SQLAlchemy as an ORM to manage database queries, abstracting SQL operations for ease of development.
-
-## Algorithmic Requests:
-My `_CRUD` class in the backend API handles POST, PUT, and DELETE requests:
-- The **POST method** takes move data from the frontend, validates it, and adds it to the database. Duplicate checks ensure data integrity.
-- The **PUT method** allows partial updates to entries, such as changing the evaluation or marking a move as "played."
-- The **DELETE method** removes a move from the database based on its unique ID, returning an appropriate success or error message.
-
-Each method parses incoming request data, performs validation, interacts with the database, and returns a JSON response with a status code.
-
-## Call to Algorithm Requests:
-Frontend JavaScript functions handle the integration of the REST API with the UI:
-- A **POST request** is triggered when the user adds a move played in the game according to provided pgn file.
-- **GET requests** populate the moves table on page load, displaying all saved moves.
-- **PUT requests** allow users to mark moves as "played" or update their evaluations. These changes are reflected immediately in the DOM.
-- **DELETE requests** remove moves from the database and dynamically update the table to reflect the changes.
-
-For example, the "Mark as Played" button sends a PUT request to the API. Once the request is successful, the move is added to the "Played Moves" list and removed from the available moves table.
-
-## Summary:
-This feature provided valuable experience in building and integrating a full-stack application:
-- **Backend:** Developed a RESTful API with robust CRUD operations and integrated it with a database.
-- **Frontend:** Designed a dynamic interface that allows users to manage their chess gameplay data effectively.
-- **Testing:** Used Postman for testing API endpoints and ensured smooth interaction between the backend and frontend.
-
-This project helped me better understand the complexities of full-stack development, especially in managing state and ensuring seamless communication between the frontend and backend. I'm excited to refine and expand this feature in future sprints.
-
-# FINAL REVIEW BLOG
-## 5 Achievements 
-- Implemented Stockfish Analysis for Evaluation into main project (Collaboration with Nikhil M)
-
-- Created Evaluation of Chess PGN files for use of viewing played moves
-
-- Created Evaluation API with CRUD for user interaction to add, delete, change status, and view moves played
-
-- Learnt Deployment process to set up pawnsy.stu.nighthawkcodingsociety.com with Vasanth
-
-- Created fully functional user-input based interactive chess board with arrow keys to switch between moves for convenience
-
-## SELF GRADING
- - I believe that my coding and technical skills this trimester were overall improved through the amount of notes and learning I went through to properly understand the material we were meant to learn. I learnt to create my own CRUD features while connecting it to other features and learning the use of API and model files. Resolving errors with databases also helped me gain mastery over the db_init, db_backup, and db_restore commands. A huge improvement that could be made is the amoint of time it takes me to learn this material, I felt I was lagging behind in terms of understanding and this overall made it challenging to keep up with the projects. In the end I was able to make a full functioning feature to present at N@TM and recieved feeback as will be shown below. 
- - Being the deployment admin, for Pawnsy’s deployment, we used AWS EC2 for hosting and Route 53 to configure our domain and subdomains. To secure the site, we added SSL certificates with Certbot and enabled HTTPS using sudo certbot --nginx.
-We deployed the application using Docker, defining its setup in a Dockerfile and configuring services in docker-compose.yml. The app was built and launched with docker-compose build and docker-compose up -d. We verified deployment by checking running services with docker ps and testing the web server with curl localhost:8401.
-To keep the site updated, we pulled the latest changes from GitHub, rebuilt the Docker container, and restarted it. We also ensured reliable database management using db_backup, db_init, and db_restore for backups and recovery.
-I also kept up to date with checking if our data shows on the deployment with the sqlite3 user_management.db command then .schema + SELECT *FROM *insert name of table for example: pgn*; this kept us on track overall.
-- My presentation skills the whole trimester were on point, I did gain approval multiple times from Mr.Mortensen as I used correct vocabulary and spoke with confidence as I rehearsed.
-- 5 Things Done Over 12 Weeks - 4.7/5
-- Full Stack Project Demo & Feedback 1.9/2
-- Project Feature Blog (CPT/FRQ Language) - 0.9/1
-- MCQ Performance - 0.8/1
-- Retrospective & Reflection - 0.4/0.5
-- Self-Grade Justification - 0.5/0.5
-- Total: 9.2
-
-
-
-## IMPROVEMENTS
-- Improve code documentation with clear comments and adhere to better programming standards.  
-- Avoid bypassing pre-existing systems for short-term gains, as it often leads to long-term complications.  
-- Adopt a more modular approach—many standalone endpoints could have been grouped into a separate API file instead of being left in `main.py`, which created a disorganized developer experience.  
-- Improve effort estimation to prevent tasks, such as deployment setup, from taking longer than expected and affecting sprint efficiency.  
-- Plan API interactions and dependencies earlier in the sprint to prevent last-minute integration challenges.  
-- Break down large features into smaller, more manageable components to enhance efficiency and debugging.  
-- Improve collaboration by distributing work more effectively—rather than assigning an entire section to one teammate, divide it into smaller, more manageable tasks.
-## FOR FUTURE:
-- **Project Management:** Improve estimation and planning to avoid last-minute rushes and ensure timely completion of tasks
-- **Code Quality:** Enhance code organization, documentation, and adherence to best practices
-- **Enhance User convenience based on feedback below.**
-
-![Feedback Image]({{site.baseurl}}/images/feeback1.png)
-
-## USERS COMMENTED 22 RESPONSES: 
-- It was really fun
-- Very clean looking with nice features
-- i liked how you guys incorporated stockfish chess engine into your website and the user experience was really simple and easy to use!
-- This website had lots of impressive features and the pictures of the chess game after playing were a great touch to the website. I honestly had no constructive criticism as the website was very well made.
-- I loved the chess feature and how you had too lose to play it
-- The pawns website can help the user gain a better experience when playing chess such as it can rate each movement.
-- Show something other than the chess feature.
-- Amazing website and helps people with chess
-- It was great, I rlly liked how well designed this site was
-- The chess analyzer looked really cool. As a chess player being able to analyze your moves, skill rating, ranking, and power bot all helps me to improve my chess skill. Each moves shows highlighted in yellow box made me happy because it was cool. i think better css styling would be great
-- Add an edit feature for chess moves. Very cool idea to download a file and analyze moves based off of a png file!
-- UI is a bit buggy and also the ELO selection could be a more elegant UI
-- Loved your games and features.
-- Very nice UI, I like your features they make a lot of sense! You mentioned there wasn’t token required so maybe consider adding that?
-- The website’s functionality is really cool. I like how I can choose the elo level and review my moves and analyze them. I don’t know if you had this, but it would be cool if when I analyze my moves, it gives me a rating on how I did and if it was a good or bad move
-- Great project overall, I‘m sure it takes a lot time and effort to code an actual chess bot. I also like how all the moves get recorded and how there is a leaderboard. The only thing I was wondering about was whether or not the bot is programmed to play strategically to play the smartest moves, or if - it simply does random moves. Other than that, great job!
-- awesome
-- Explain a bit more than just the fact that you can move the pieces around.
-- nice site
-- i liked how you guys incorporated stockfish chess engine into your website and how the user experience is very simple and easy to to use and navigate. one thing u would improve is making the website have a more consistent theme.
-- It was really good and it was interesting to learn about chess
-- I would have liked more color in the website but liked the functionality and explanation of how the website works
-
-# Project Feature Writeup: Chess Game Analysis and Move Management
-
-**Chess Game Analysis and Move Management (CPT REQUIREMENTS)**
-
----
-
-### 1. Program Purpose and Function
-The primary purpose of this program is to help chess players analyze and manage their games in real time. Users upload a Portable Game Notation (PGN) file, navigate through the moves, and receive evaluation data—such as score differences and best moves—from the Stockfish chess engine. This feedback helps players identify mistakes, improvements, and notable moves (e.g., “Brilliant,” “Inaccurate,” “Blunder”).
-
-**Input:**  
-- A PGN file containing the recorded moves of a chess game.  
-- User actions (e.g., navigating moves, adding new moves).
-
-**Output:**  
-- A dynamically updated chessboard.  
-- A move table displaying evaluation details (score, best move, status).  
-- Success or error messages for CRUD operations (e.g., “Move added successfully” or “Invalid move”).
-
-By integrating the board display, engine analysis, and move-management system, the program allows users to explore each move’s impact and store personalized notes or custom moves.
-
----
-
-### 2. Data Abstraction
-A central **data structure** (such as an SQLAlchemy model) manages the moves and their evaluations. Each move record includes fields like:
-- `move_id` (unique identifier)
-- `notation` (e.g., “Nf3”)
-- `score` (evaluation in pawns)
-- `status` (e.g., “Excellent,” “Mistake”)
-- `played` (boolean indicating if the move is part of the official game)
-
-This abstraction **manages complexity** by grouping all relevant information into a single, accessible structure. Instead of scattering move details across multiple variables, the program consistently stores, retrieves, and updates move information.
-
-**Sample Code Excerpt (Data Structure Definition):**
-```python
-# Example of how moves might be stored in a database model
-class Move(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    notation = db.Column(db.String(10))
-    score = db.Column(db.Float)
-    status = db.Column(db.String(20))
-    played = db.Column(db.Boolean, default=False)
-
-    def __init__(self, notation, score, status, played=False):
-        self.notation = notation
-        self.score = score
-        self.status = status
-        self.played = played
-```
-A core procedure, evaluate_position, processes a FEN string (representing the current board state) and returns an evaluation object containing the score, best move, and status. This function exemplifies input, output, selection, and iteration:
-
-Input: Accepts a FEN string and an optional previous score.
-Iteration: Runs the Stockfish engine for a set depth to generate a score and determine the best move.
-Selection: Compares the current score with the previous score to classify the move (e.g., “Brilliant” for a significant positive difference, “Blunder” for a significant negative difference).
-Output: Returns a dictionary with keys score, best_move, and status.
-
-Algorithm Implementation (Selection, Iteration, Sequencing)
-Sequencing: On clicking “Next Move,” the program retrieves the subsequent move from the PGN, updates the chessboard, and calls evaluate_position to update the evaluation.
-Selection: The procedure compares score differences to determine and label the move’s status.
-Iteration: The Stockfish engine internally iterates to calculate the best move, while the program iterates through moves to display and update the move table.
-These constructs ensure a logical flow from user input (e.g., button click) to the final output (updated board and evaluation details).
-
-Input and Output Examples
-User Uploads a PGN
-
-Input: PGN text containing moves (e.g., 1. e4 e5 2. Nf3 Nc6 ...)
-Output: The board displays the initial position, and the moves table lists the moves from the PGN.
-User Navigates to Move #5
-
-
-Input: Entering details (e.g., notation = “d4”, score = 0.9) via a form.
-Output: The new move is added to the moves table, the database is updated, and a confirmation message (e.g., “Move added successfully!”) is shown.
-
-
-## N\@TM TRI 3:
-
-## Executive Summary:
-
-For this sprint, I created and deployed a full-stack feature called the **Risk Predictor** for our Pyre safety website. This feature allows users to assess wildfire and earthquake risk in any U.S. ZIP code by integrating real-time geolocation APIs and historical hazard data. I implemented a scoring system to evaluate natural disaster risk levels and dynamically display results using a user-friendly frontend.
-
-## Team Purpose:
-
-Our team’s project, Pyre, aims to help individuals and communities understand natural disaster threats through data-driven insights. My feature complements this goal by giving users a quick and visual way to analyze wildfire and earthquake risks based on where they live or where they're planning to move.
-
-## Individual Feature:
-
-The Risk Predictor takes a ZIP code as input and generates two separate risk evaluations:
-
-1. **Wildfire Risk** based on recent fire activity, vegetation, and seasonal weather patterns.
-2. **Earthquake Risk** based on historical seismic activity, maximum magnitude, and proximity to major fault lines.
-
-### Key Functionalities:
-
-* **GET Request (Wildfire & Earthquake):**
-
-```python
-@app.route('/api/risk/wildfire', methods=['GET'])
-def get_wildfire_risk():
-    zip_code = request.args.get('zip')
-    result = risk_predictor.get_wildfire_risk(zip_code)
-    return jsonify(result)
-```
-
-```python
-@app.route('/api/risk/earthquake', methods=['GET'])
-def get_earthquake_risk():
-    zip_code = request.args.get('zip')
-    result = risk_predictor.get_earthquake_risk(zip_code)
-    return jsonify(result)
-```
-
-### Risk Algorithm Details:
-
-* Wildfire Score (0-100) is calculated from:
-
-  * Recent fire count (weighted more heavily)
-  * Vegetation risk level
-  * Weather risk level (based on month and region)
-* Earthquake Score (0-100) is based on:
-
-  * Earthquake frequency in past year
-  * Maximum magnitude
-  * Fault line proximity using Haversine formula
-
-The total score maps to a risk level: **Low (<30)**, **Medium (30-70)**, or **High (>70)**.
-
-### Frontend Integration:
-
-* Takes ZIP code input, sends it to the backend via fetch requests.
-* Displays wildfire and earthquake results in styled cards.
-* Dynamically populates risk score, recent activity, and risk factors.
-* Shows loading spinner and error messages for improved UX.
-
-### Postman Testing:
-
-* I used Postman to verify both endpoints by passing in ZIP codes and confirming the response included correct values and valid HTTP codes.
-* Example request: `GET http://localhost:8505/api/risk/wildfire?zip=92127`
-
-## Input/Output Requests:
-
-* **GET**: Frontend sends two API requests (one for wildfire, one for earthquake).
-* **Response**: JSON object with `risk_score`, `risk_level`, `recent_fires`/`earthquakes`, `weather_risk`, `vegetation_risk`, or `fault_distance`.
-
-## Call to Algorithm Requests:
-
-* `get_coordinates_from_zip(zip)` uses Zippopotam.us API to translate ZIP codes to coordinates.
-* `get_wildfire_risk(zip)` and `get_earthquake_risk(zip)` use internal logic and real-time APIs to produce a risk object.
-* JavaScript fetch handlers display the output live in the DOM.
-
-## Summary:
-
-This feature taught me how to:
-
-* Integrate real APIs like USGS and ZIP code lookup
-* Build scoring systems from multiple data inputs
-* Connect Flask backend with Tailwind + JS frontend
-* Debug and test using Postman and browser console
-* Deploy using Route 53 and Docker while managing `.env` secrets securely
-
-## 5 Achievements:
-
-* Created full wildfire and earthquake risk predictor
-* Developed and tested GET endpoints using Flask
-* Designed risk algorithm using real-world hazard data
-* Integrated visual frontend UI for public use
-* Connected backend to public ZIP code and earthquake APIs
-
-## Improvements:
-
-* Modularize risk functions into separate model file
-* Expand to include flood or storm risk
-* Allow location-based (GPS) prediction instead of ZIP only
-
-
-
-<a href="https://github.com/Spirit0327/aarushg_2025/issues/15#issue-3123802306" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; font-weight: bold;">N@TM Blog</a>
