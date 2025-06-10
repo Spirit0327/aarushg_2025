@@ -36,6 +36,9 @@ The wildfire risk assessment considers recent fire activity patterns, vegetation
 
 The earthquake risk evaluation incorporates historical seismic activity, maximum recorded magnitudes, and proximity to major fault lines using precise geographical distance calculations. The system applies the Haversine formula to determine fault line proximity and combines this with frequency analysis of recent seismic events.
 
+![Feedback Image]({{site.baseurl}}/images/risk.webp)
+
+
 
 ## FINAL REVIEW & REFLECTION
 
