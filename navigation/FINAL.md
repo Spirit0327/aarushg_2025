@@ -53,7 +53,29 @@ The earthquake risk evaluation incorporates historical seismic activity, maximum
 ### User Feedback Analysis:
 From 22 N@TM responses, users consistently praised the clean interface design, sophisticated Stockfish integration, and comprehensive move analysis capabilities. The interactive chess board with arrow key navigation received particularly positive feedback for its intuitive user experience.
 
+Challenges:
+![Feedback Image]({{site.baseurl}}/images/trash.png)
+![Feedback Image]({{site.baseurl}}/images/risk.webp)
 
+One thing that majorly affected my CSP class experience this trimester was the fact that my original feature, did not work at all. Honestly, I am not exactly sure what happened but esentially the preprocessing of the very large earthquake csv was very hard to display on the Leaflet map. In the original feature check I ended up with a lower score because I was not able to display any data. Eventually I changed it so that I have a completely new feature which was shown in the video, it esentially predicts the risk of wildfires and earthquakes using a mathematical formula I made myself based on dry vegetation percentage for fires, and distance from fault lines for earthquakes. I was able to present something worthwhile at N@TM and I ended up actually recieving a lot of questions especially regarding how I calculate the risk score. The change felt very good in general as my morale was very high after that and I felt proud to present something I worked so hard on, regardless of it being later in the trimester. 
+
+## Tokens and NFTS:
+
+#### 🧭 Adaptive Strategist
+For anticipating blockers and designing flexible solutions ahead of shifting requirements.
+
+#### Flow Engineer
+For streamlining developer experience — from shared script standards to onboarding walkthroughs.
+
+#### Precision Fixer
+For zero-drama fixes that land with precision: no regression, no confusion, no stress.
+
+#### Integration Crafter
+For writing the connective logic that brings disjointed APIs, spreadsheets, and frontend state into harmony.
+
+
+#### Code Minimalist
+For knowing when not to add more code — prioritizing clarity, simplicity, and longevity.
 
 
 <a href="https://spirit0327.github.io/aarushg_2025/divide/" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; font-weight: bold;">Go to Divide Homework</a>
